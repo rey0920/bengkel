@@ -11,7 +11,7 @@
 		
 		if($password_old == $password_old2) {
 			if($password_new == $password_new2) {
-				$sql = "UPDATE admin SET pass_kasir='". $password_new ."' WHERE id_kasir='". $id_pengguna ."'";
+				$sql = "UPDATE users SET password='". $password_new ."' WHERE id='". $id_pengguna ."'";
 				$ress = mysqli_query($conn, $sql);
 				
 				header("location: pengaturan.php?act=update&msg=success");
@@ -24,4 +24,3 @@
 			header("location: pengaturan.php?act=update&msg=pwd_err_1");
 		}
 	}
-?>

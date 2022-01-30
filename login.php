@@ -1,6 +1,7 @@
 <?php $pagedesc = "Login"; ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +22,7 @@
 
 	<!-- Custom Fonts -->
 	<link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
+
 	<!-- jQuery -->
 	<script src="libs/jquery/dist/jquery.min.js"></script>
 
@@ -44,7 +45,7 @@
 				<div id="page-wrapper" class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4" style="background-color: #ffffff; border-radius: 20px; webkit-box-shadow: 0 1px 1px rgba(0,0,0,0,0.5); box-shadow: 0 1px 1px rgba(0,0,0,0.5)">
 					<div class="row">
 						<div class="col-lg-12">
-							<br/>
+							<br />
 							<center><img src="foto/bengkel.png" width="250" height="180"></center>
 							<h2 class="text-center">Sistem Informasi Media Workshop</h2>
 						</div>
@@ -61,16 +62,11 @@
 											<input type="password" class="form-control" name="password" placeholder="Password" required>
 										</div>
 										<div class="form-group">
-											<select class="form-control" name="akses" required>
-											<option value="">================== Login Sebagai ====================</option>
-											<option value="Admin">Admin</option>
-											<option value="Kasir">Kasir</option>
-											</select>
-										</div>
-										<div class="form-group">
 											<input type="submit" class="btn btn-success btn-block" name="login" value="Masuk">
 										</div>
 									</form>
+
+									<p class="text-center">Belum punya akun ? <a href="register.php">Daftar Disini!</a></p>
 								</div>
 							</div>
 						</div><!-- /.col -->
@@ -79,7 +75,7 @@
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section>
-	
+
 	<!-- footer-bottom -->
 	<div class="navbar navbar-inverse navbar-fixed-bottom footer-bottom">
 		<div class="container text-center">
@@ -91,4 +87,5 @@
 	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
