@@ -1,6 +1,6 @@
 <?php
 include("sess_check.php");
-include("../dist/function/format_rupiah.php");
+include("dist/function/format_rupiah.php");
 
 $tgl = date('Y-m-d');
 $ttl = 0;
